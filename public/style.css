@@ -1,0 +1,59 @@
+
+.container .navbar-brand span{
+    color: rgb(0, 0, 0);
+}
+
+.bg-coklat{
+    background-color: chocolate;
+}
+
+.hero{
+    min-height: 100vh;
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+.hero .content{
+    padding: 0 8%;
+}
+
+.hero .content h1{
+    color: chocolate;
+    font-size: 4rem;
+    text-shadow: 1px 1px 8px black;
+}
+
+.hero .content p{
+    color: white;
+    font-size: 1rem;
+    text-shadow: 1px 1px 8px black;
+}
+
+.hero .content .btn{
+    background-color: brown;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 0.5rem;
+}
+
+.hero .content .btn:hover{
+    background-color: chocolate;
+    color: white;
+
+}
+
+.about p{
+    font-size: 1.2rem;
+    line-height: 2rem;
+    color: rgb(224, 224, 224);
+    text-align: justify;
+    text-indent: 1.5rem;
+}
+
+.button-container{
+    text-align: right;
+}
